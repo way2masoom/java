@@ -9,6 +9,7 @@
 
 //Basically 40 will Divide by 3 time up to 3 times Eg: 40/3/3/3=5
 
+
 import java.util.Scanner;
 
 class BitwiseRightShift {
