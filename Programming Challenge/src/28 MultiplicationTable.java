@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class MultiplicationTable {
+class MultiplicationTable {
     public static void main(String[] args) {
         System.out.println("Printing the Table of Multiplication Table");
         Scanner input=new Scanner(System.in);
