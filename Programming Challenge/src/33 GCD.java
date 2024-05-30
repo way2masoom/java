@@ -1,2 +1,2 @@
-public class GCD {
+class GCD {
 }

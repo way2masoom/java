@@ -1,2 +1,2 @@
-public class ArmstrongNumber {
+class ArmstrongNumber {
 }

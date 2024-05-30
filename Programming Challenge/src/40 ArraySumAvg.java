@@ -23,7 +23,5 @@ class SumandAvg {
          }
          return arrsum;
      }
-     public static int ArrayAvg(int avg){
-        avg=ArraSum()/arr.length;
-    }
+
 }

@@ -1,2 +1,2 @@
-public class LCM {
+class LCM {
 }

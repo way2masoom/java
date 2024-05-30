@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class SumOfDigit {
+class SumOfDigit {
     public static void main(String[] args){
         System.out.println("Program to calculate sum of the digits of an integer.");
         Scanner input=new Scanner(System.in);

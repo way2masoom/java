@@ -1,2 +1,2 @@
-public class ReverseDigits {
+class ReverseDigits {
 }
