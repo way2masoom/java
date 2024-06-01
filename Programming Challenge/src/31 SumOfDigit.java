@@ -16,12 +16,12 @@ class SumOfDigit {
     }
 
     // Creating a method to calculate the sum of digit
-    public static int SumDigit(int n){
+    public static int SumDigit(int num){
         int sum=0;
         int i=0;
-        while (i<=n){
-            sum=sum+i;
-            i++;
+        while (num>0){
+            sum+=num%10;
+            num=num/10;
         }
         return sum;
     }
