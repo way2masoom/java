@@ -18,7 +18,6 @@ class SumOfDigit {
     // Creating a method to calculate the sum of digit
     public static int SumDigit(int num){
         int sum=0;
-        int i=0;
         while (num>0){
             sum+=num%10;
             num=num/10;
