@@ -26,7 +26,7 @@ class Palindrome {
     }
 
 
-    //    Creating a method to reverse a Number
+    // Creating a method to reverse a Number
     public static int reverse(int num) {
         int newNum = 0; // Variable to store the reversed number
 
