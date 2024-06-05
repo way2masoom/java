@@ -17,6 +17,7 @@ public class Return {
     public static void greet(){
         System.out.println("Welcome to Calculator \n");
     }
+
     //creating a method to read numebrs from user
     public static int readNumber() {
         Scanner input=new Scanner(System.in);

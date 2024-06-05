@@ -41,5 +41,12 @@ public class Array {
         String[] mystr2={"hello", "This is", "Alam"};
         System.out.println(mystr2[0]);
 
+        String[] mystr3=new String[4];
+        mystr3[0]="Anas";
+        mystr3[1]="Arrina";
+        System.out.println(mystr3[1]);
+
+        String[] mystr4={"Hello","Good Morning", "Good Night"};
+        System.out.println(mystr4[2]);
     }
 }
