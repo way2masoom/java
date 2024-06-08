@@ -13,7 +13,7 @@ public class ArrayUtility {
         // Taking array elements input from the user
         int i=0;
         while (i<size){
-            System.out.println("Please Enter Element No"+(i+1)+" ");
+            System.out.println("Please Enter Element No"+(i+1)+": ");
             nums[i]=input.nextInt();
             i++;
         }
