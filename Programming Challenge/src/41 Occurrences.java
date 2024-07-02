@@ -1,5 +1,5 @@
 // create a program to find number of Occurrences of an Element in an Array
-import java.util.Scanner;
+    import java.util.Scanner;
 
 class OccurrencesArray {
     public static void main(String[] args) {

@@ -19,4 +19,13 @@ public class ArrayUtility {
         }
         return nums;
     }
+
+    // Method to output array from the user
+    public static void outputArray(int[] numArray){
+        int i=0;
+        while (i< numArray.length){
+            System.out.print(numArray[i]+" ");
+            i++;
+        }
+    }
 }
