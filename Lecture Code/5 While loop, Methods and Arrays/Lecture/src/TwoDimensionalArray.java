@@ -1,9 +1,10 @@
 public class TwoDimensionalArray {
     public static void main(String[] args) {
+
         int[][] arr={{1,2,3},{4,5,6},{6,7,8},{9,10,11}};
 //        System.out.println(arr[0].length);
 
-        // Another way of delectraction
+        // Another way of decontraction
         int[][] myArr=new int[5][4];
 
 //        Printing hole arrays

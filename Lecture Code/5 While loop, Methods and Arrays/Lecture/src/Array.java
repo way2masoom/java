@@ -27,26 +27,27 @@ public class Array {
        //It also Called Array Traversal
         int index=0;
         while (index <myArr.length){
-            System.out.println(myArr[index]);
+            System.out.print(myArr[index]+" ");
             index++;
         }
 
         // Array Decleratin using Sting value
 
-        String[] myStr=new String[4];
-        myStr[0]="Hello";
-        myStr[2]="This is md";
-        System.out.println(myStr[0]);
+//        String[] myStr=new String[4];
+//        myStr[0]="Hello";
+//        myStr[2]="This is md";
+//        System.out.println(myStr[0]);
+//
+//        String[] mystr2={"hello", "This is", "Alam"};
+//        System.out.println(mystr2[0]);
+//
+//        String[] mystr3=new String[4];
+//        mystr3[0]="Anas";
+//        mystr3[1]="Arrina";
+//        System.out.println(mystr3[1]);
+//
+//        String[] mystr4={"Hello","Good Morning", "Good Night"};
+//        System.out.println(mystr4[2]);
 
-        String[] mystr2={"hello", "This is", "Alam"};
-        System.out.println(mystr2[0]);
-
-        String[] mystr3=new String[4];
-        mystr3[0]="Anas";
-        mystr3[1]="Arrina";
-        System.out.println(mystr3[1]);
-
-        String[] mystr4={"Hello","Good Morning", "Good Night"};
-        System.out.println(mystr4[2]);
     }
 }

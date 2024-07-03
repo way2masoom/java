@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ArraySearch {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        //Declearing Array
+        //Declaring Array
         int[] arr={6,77,88,4,6,2,45,66,21,66,2,55,};
 
         System.out.println("Welcome to Array Searching");
@@ -13,6 +13,7 @@ public class ArraySearch {
 
         // Calling Method
         boolean isFound=isFound(arr,num);
+
         //Checking the number is in Array or Not
         if(isFound){
             System.out.println("your Number is Found in array "+num);
