@@ -1,4 +1,4 @@
-class sumAvg2 {
+class sumAvg2DArray {
     public static void main(String[] args) {
         System.out.println("Welcome to Sum and Average calculator 2D Array \n");
         //calling the Array utility classes
@@ -18,8 +18,9 @@ class sumAvg2 {
     //Creating method to find the sum of 2DArray
     public static long sum (int[][] numArray){
       long sum=0;
-        int i=0,j=0;
+        int i=0;
         while (i<numArray.length) {
+            int j=0;
             while (j < numArray[i].length) {
                 sum+=numArray[i][j];
                 j++;
@@ -31,8 +32,13 @@ class sumAvg2 {
 
     //Creating method to find the Average of 2DArray
     public static double average(int[][] numArr){
-        long sum=sum(numArr);
+        if(numArr.length==0){
+            return 0;
+        }
+        int rows=numArr.length;
+        int cols=numArr[0].length;
 
-        return (double) (sum/numArr.length);
+        double size=rows*cols;
+        return sum(numArr)/size;
     }
 }
