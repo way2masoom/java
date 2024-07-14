@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Course {
+    class Course {
     // Instance Variables
     private String courseName;
     private List<String> enrolledStudents;
