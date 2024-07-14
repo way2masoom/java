@@ -1,6 +1,6 @@
 public class Driver {
 
-//    Driver has It's own properties
+    // Driver's own properties
     String name;
     static int minAgeForDriving=18;
     String dateOfLicence;
@@ -30,20 +30,28 @@ public class Driver {
 //        mycar.drive();
 //        System.out.println(mycar.getCurrentFuelLevel());
 
-//        creating a new car
-        Car swift=new Car();
-        swift.addFuel(6);
-//        Car StartedCar =swift.start();
+            //creating a new car
+        Car swift=new Car("Red");
+        Car thar=new Car();
+/*
+      swift.addFuel(6);
+      Car StartedCar =swift.start();
+*/
+
+
 //        StartedCar.drive();
 
-//        we can call them in another way
+//      we can call them in another way
         swift.start().drive();
         System.out.println(swift.currentFuelInLiters);
+        System.out.println("Color Selected By user: "+swift.color);
+        System.out.println("Default Card Color : "+thar.color);
+
 
         // creating the object of Driver
-        Driver myDriver=new Driver();
-        myDriver.dateOfLicence="12 jun 2024";
-        System.out.println(minAgeForDriving);
+//        Driver myDriver=new Driver();
+//        myDriver.dateOfLicence="12 jun 2024";
+//        System.out.println("Minimum age ="+minAgeForDriving);
 
     }
 }

@@ -6,6 +6,21 @@ public class Car {
     float currentFuelInLiters;
     int noOfSeats;
 
+    //Creating a Constructor
+    Car(String color){
+        this.color=color;
+        noOfSeats=5;
+        noOfWheels=4;
+        currentFuelInLiters=2;
+        maxSpeed=150;
+
+    }
+    // Creating another Constructor for Default Color of CAR
+    Car(){
+        this("Black");
+        currentFuelInLiters=5;
+    }
+
     public Car start(){
         if(currentFuelInLiters==0){
             System.out.println("Car is out of Fuel");
